@@ -40,7 +40,7 @@ const App = () => {
   return (
     <>
       <Toaster />
-      <SearchBar onSearch={handleSearch} />
+      <SearchBar onSubmit={handleSearch} />
 
       {loading && <Loader />}
       {error && <ErrorMessage />}
