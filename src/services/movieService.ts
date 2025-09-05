@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { TMDBSearchResponse } from "../components/types/movie.ts";
+import type { TMDBSearchResponse } from "../types/movie.ts";
 
 const BASE_URL = "https://api.themoviedb.org/3";
 
